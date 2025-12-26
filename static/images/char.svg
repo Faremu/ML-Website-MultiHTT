@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:bx="https://boxy-svg.com" width="20px" height="20px">
+  <defs>
+    <bx:export>
+      <bx:file format="svg"/>
+    </bx:export>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -1.442501, 0.17897)">
+    <polygon style="stroke: rgb(128, 128, 128); fill: rgb(128, 128, 128);" points="39.464 310.274 120.79 405.157 366.259 401.349 463.421 259.646 377.977 138.777 275.914 94.485 223.54 210.844 121.344 196.879"/>
+    <polyline style="stroke: rgb(255, 255, 255); stroke-width: 10px; fill: rgb(128, 128, 128);" points="101.35 298.105 158.874 358.765 274.272 358.701"/>
+    <polyline style="stroke: rgb(255, 255, 255); stroke-width: 10px; fill: rgb(128, 128, 128);" points="272.046 215.905 290.934 174.61 322.12 196.04"/>
+    <line style="stroke-width: 10px; stroke: rgb(255, 255, 255); fill: rgb(128, 128, 128);" x1="403.931" y1="280.203" x2="370.564" y2="327.795"/>
+  </g>
+</svg>

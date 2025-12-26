@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+
+# Local test & debug
+test.py
+train.py
+10fold_XGB_HT.py
+dataset.xlsx

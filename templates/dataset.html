@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-HTT</title>
+    <!-- Include the Tailwind CDN script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- You can also link your own custom CSS file here if needed -->
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="sticky w-full h-16">
+        <div class="w-full h-full flex flex-row justify-between items-center px-5 shadow ">
+            <p class="text-2xl font-bold text-black">Multi-HTT</p>
+            <div class="flex flex-row lg:mr-10 h-16">
+                <a href="/" class="nav py-5">
+                    <i class="icon-home lg:hidden"></i><span class="hidden lg:inline">Home</span>
+                </a>
+                <a href="/Datasets" class="nav py-5 border-black border-b-2">
+                    <i class="icon-datasets lg:hidden"></i><span class="hidden lg:inline">Datasets</span>
+                </a>
+                <a href="/Researcher" class="nav py-5">
+                    <i class="icon-researcher lg:hidden"></i><span class="hidden lg:inline">Researcher</span>
+                </a>
+                <a href="/About" class="nav py-5">
+                    <i class="icon-about lg:hidden"></i><span class="hidden lg:inline">About</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-10 flex flex-col justify-center items-center">
+        <div class="flex flex-row space-x-1 mb-10 items-center">
+            <i class="icon-datasets"></i>
+            <h1 class="text-3xl font-bold text-gray-700">Datasets</h1>
+        </div>
+            <a href="https://multihtt.pythonanywhere.com/static/dataset.xlsx" 
+            class="w-64 sm:w-fit slide-up-element my-5 ring-1 ring-green-600 bg-gradient-to-r from-green-300 to-green-50 text-gray-700 p-3 hover:ring-2 hover:ring-green-600 rounded-lg hover:cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,0,0.25)] duration-300">
+            <div class="flex flex-col sm:flex-row h-full">
+                <div class="flex flex-row sm:flex-col justify-between">
+                    <span class="font-bold">dataset <br> (.xlsx)</span>
+                    <span></span>
+                    <div class="flex flex-col text-xs text-gray-500">
+                        <span>76.0KB</span>
+                        <span>23-12-2568</span> 
+                    </div>
+                    
+                </div>
+                <div class="border-l-2 border-gray-400 mx-3"></div>
+                <div>
+                    <span class="font-bold">Information</span>
+                    <div class="text-sm text-gray-500">
+                        <p class="">This dataset consists of 15 input features and 3 output variables.</p>
+                        <div class="flex flex-row space-x-2">
+                            <span><u>Input features</u>:</span>
+                            <div>
+                                <p>Time(min), T(C), P(MPa), BL(g), RS(mL), W(ml), S/BL(mL/g), </p>
+                                <p>C(%), H(%), N(%), O(%), S(%), H/C, O/C, HHV(MJ/kg)</p>
+                            </div>
+                        </div>
+                        
+                        <span><u>Output</u>: Bio_oil(%), Bio_char(%), Bio_gas(%)</span>
+                    </div>
+                    
+
+                </div>
+                
+            </div>
+        </a>
+    </div>
+</body>
+</html>
