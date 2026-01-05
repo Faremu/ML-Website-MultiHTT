@@ -45,6 +45,16 @@ input::-webkit-inner-spin-button {
     mask-size: contain;
     mask-repeat: no-repeat;
 }
+.icon-cc{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-color: black; /* Matches the text color */
+    -webkit-mask-image: url('images/calculator-icon.png');
+    mask-image: url('images/calculator-icon.png');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
 .icon-op{
     display: inline-block;
     width: 24px;
